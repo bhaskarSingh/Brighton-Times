@@ -375,3 +375,48 @@ footer a {
   color: #333;
   padding: 1.5em;
 }
+
+@media screen and (min-width: 680px){
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero{
+    width: 50%;
+  }
+
+  .top-news{
+    width: 50%
+  }
+
+  .scores{
+    width: 50%;
+  }
+
+  .weather{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero{
+    width: 25%;
+  }
+
+  .top-news{
+    width: 25%;
+  }
+
+  .scores{
+    width: 25%;
+  }
+  .weather{
+    width: 25%;
+  }
+}
