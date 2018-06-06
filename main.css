@@ -382,41 +382,18 @@ footer a {
     flex-wrap: wrap;
   }
 
-  .hero{
-    width: 50%;
-  }
-
-  .top-news{
-    width: 50%
-  }
-
-  .scores{
-    width: 50%;
-  }
-
-  .weather{
+  .hero, .top-news, .scores, .weather{
     width: 50%;
   }
 }
 
-@media screen and (min-width: 1200px){
-  .content{
-    display: flex;
-    flex-wrap: wrap;
+@media screen and (min-width: 1000px){
+  body{
+    width: 940px;
+    margin: 0 auto;
   }
 
-  .hero{
+  /* .hero, .top-news, .scores, .weather{
     width: 25%;
-  }
-
-  .top-news{
-    width: 25%;
-  }
-
-  .scores{
-    width: 25%;
-  }
-  .weather{
-    width: 25%;
-  }
+  } */
 }
