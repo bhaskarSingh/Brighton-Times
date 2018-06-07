@@ -181,6 +181,7 @@ main {
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  margin: 0 auto;
 }
 
 .news__title {
@@ -223,6 +224,7 @@ main {
 
 .scores {
   padding-top: 1em;
+  margin: 0 auto;
 }
 
 .scores__table {
@@ -270,6 +272,7 @@ main {
 
 .weather {
   padding: 1em;
+  margin: 0 auto;
 }
 
 .weather__location {
@@ -414,10 +417,6 @@ footer a {
   nav.open {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
-  }
-
-  .scores{
-    margin: 0 auto;
   }
 }
 
